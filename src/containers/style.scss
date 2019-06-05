@@ -1,0 +1,23 @@
+.test{
+  font-size: 20px;
+  color: #f3f;
+}
+.log{
+  font-size: 30px;
+  color:#4f3;
+  transform: rotateX(10deg)
+}
+/*
+:global(.test){
+  font-size: 22px;
+  color: #f3f;
+}
+
+:global {
+  .test {
+    padding-top: 30px;
+    font-size: 22px;
+    color: #a1f;
+  }
+}
+*/

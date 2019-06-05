@@ -1,0 +1,20 @@
+{
+  "presets": [
+    ["@babel/preset-env",{
+      "targets": {
+        "browsers": ["IE >= 9"]
+      },
+      "useBuiltIns": "usage",
+      "corejs": 2
+    },],
+    "@babel/preset-react"],
+  "plugins": [
+    "react-hot-loader/babel",
+    "@babel/plugin-syntax-dynamic-import",
+    ["import", {
+      "libraryName": "antd",
+      "style": true
+    }]
+  ],
+
+}
