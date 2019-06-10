@@ -2,7 +2,8 @@ module.exports = {
     "extends": "airbnb",
     "parser": "babel-eslint",
     "plugins": [
-        "react"
+        "react",
+        "redux-saga"
     ],
     "rules": {
         "import/extensions": 0,
@@ -14,7 +15,8 @@ module.exports = {
         "react/prop-types": 1,
         "no-param-reassign": 1,
         "no-underscore-dangle": 1,
-        "global-require": 1
+        "global-require": 1,
+        "no-nested-ternary": 1
     },
     "globals":{
     },

@@ -7,7 +7,6 @@ const config = require('./webpack.dev.config.js');
 const port = 4000;
 const ip = 'localhost';
 config.plugins.push(new OpenBrowserPlugin({ url: `http://${ip}:${port}` }));
-console.log(config.output);
 new WebpackDevServer(webpack(config), {
   publicPath: config.output.publicPath,
   hot: true,

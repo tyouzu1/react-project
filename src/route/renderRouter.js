@@ -31,7 +31,6 @@ const RouteWithProps = ({
 );
 function matchRoutes(routes, pathname, /* not public API */ branch = []) {
   routes.some((route) => {
-    /* eslint-disable no-nested-ternary */
     const match = route.path
       ? matchPath(pathname, route)
       : branch.length

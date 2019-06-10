@@ -36,6 +36,7 @@
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-redux-saga": "^1.0.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "imagemin": "^6.1.0",
@@ -70,11 +71,11 @@
     "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-imported-component": "^5.5.3",
     "react-redux": "^7.0.3",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.1",
     "redux": "^4.0.1",
+    "redux-saga": "^1.0.2",
     "whatwg-fetch": "^3.0.0"
   },
   "library": {
@@ -87,7 +88,8 @@
       "react-router-dom"
     ],
     "redux": [
-      "redux"
+      "redux",
+      "redux-saga"
     ],
     "antd": [
       "antd"
@@ -99,5 +101,10 @@
   },
   "gitHooks": {
     "pre-commit": "npm run lint"
-  }
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 1%",
+    "IE 8"
+  ]
 }
